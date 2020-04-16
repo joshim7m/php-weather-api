@@ -57,4 +57,16 @@ class ApiController extends Controller
       return view('w-result', compact('owResponseBody', 'address'));
 
     } 
+
+    // vue js approach
+
+    public function getWeatherJs(){
+
+      return view('weatherjs');
+    }
+
+    public function postWeatherJs(Request $request){
+
+
+    }
 }
